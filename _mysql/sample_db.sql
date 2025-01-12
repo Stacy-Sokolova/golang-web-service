@@ -15,8 +15,8 @@ CREATE TABLE `items` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `items` (`id`, `title`, `description`, `updated`) VALUES
-(1,	'database/sql',	'Рассказать про базы данных',	'rvasily'),
-(2,	'memcache',	'Рассказать про мемкеш с примером использования',	NULL);
+(1,	'title1',	'some description 1',	'anastasias'),
+(2,	'title2',	'some description 2',	NULL);
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
@@ -30,6 +30,6 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `users` (`user_id`, `login`, `password`, `email`, `info`, `updated`) VALUES
-(1,	'rvasily',	'love',	'rvasily@example.com',	'none',	NULL);
+(1,	'anastasias',	'sssstac',	'stacysv17@exmpl.com',	'none',	NULL);
 
 -- 2017-11-22 23:33:12
